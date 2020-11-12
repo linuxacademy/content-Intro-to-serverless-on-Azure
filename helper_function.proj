@@ -1,3 +1,5 @@
+<!--Copy-paste the XML code, below, into your empty function.proj file and save. You may also need to refresh.-->
+
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
