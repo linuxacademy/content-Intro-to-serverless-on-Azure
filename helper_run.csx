@@ -1,5 +1,6 @@
 //The code, below, extends the base template code in run.csx.
 //Rather than surgically editing the file -- risking a typo or a missed semi-colon -- just delete *all* of the code in that file and paste the code below.
+//Don't forget to save. You may also need to refresh to rebuild the underlying code project.
 
 #r "Newtonsoft.Json"
 
