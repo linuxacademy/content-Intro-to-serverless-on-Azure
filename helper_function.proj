@@ -1,4 +1,4 @@
-<!--Copy-paste the XML code, below, into your empty function.proj file and save. You may also need to refresh.-->
+<!--Copy-paste the XML code, below, into your empty function.proj file and, save. You may also need to refresh to rebuild the underlying code project.-->
 
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
