@@ -29,7 +29,7 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
         HtmlWeb web = new HtmlWeb();
 //dump the results of the web page call into an HTML (XML) document
         var htmlDoc = web.Load(html);
-//parse the document to find the first instance of a bullet point with a link
+//parse the document to find the first instance of a bullet point with a link, by traversing the HTML to find the A tag under the LI tag.
         var monthlyLink = htmlDoc.DocumentNode
             .SelectSingleNode("//li/a")
             .Attributes["href"].Value;
