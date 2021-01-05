@@ -2,7 +2,9 @@ This repo contains files for use in the "Intro to serverless on Azure" course an
 
 You do not need any of these resources until the second half of the lab, when you extend the sample template code to address a real-world scenario.
 
-When you get to the part in the lab diagram where you "Open the Console from Development Tools," open the console, return here, and follow the instructions, below.
+When you get to the part in the lab diagram where you "Open the Console from Development Tools," open the console, return here, and follow the instructions, below. 
+
+****These instructions are purposely vague for the benefit of those who are trying to complete the lab with minimal assistance. If you prefer step-by-step instructions, please refer to the lab guide and/or the solution video.
 
 The console window will open at the root directory for the Function App you deployed, which hosts the function you created in the first half of the lab.
 **You need to traverse to the function subdirectory (for example, "HttpTrigger1"), beneath the Function App directory. Then, inside of that sub-directory, create an empty file called, function.proj 
