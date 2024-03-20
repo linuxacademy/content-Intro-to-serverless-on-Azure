@@ -31,7 +31,7 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
         var htmlDoc = web.Load(html);
 //parse the document to find the first instance of a bullet point with a link, by traversing the HTML to find the A tag under the LI tag.
         var monthlyLink = htmlDoc.DocumentNode
-            .SelectSingleNode("//li/a")
+            .SelectSingleNode("//*[@id='DDSMTH.ZIP']")
             .Attributes["href"].Value;
 //modified the original canned response with the value of the link parsed from the HTML
     string responseMessage = string.IsNullOrEmpty(name)
